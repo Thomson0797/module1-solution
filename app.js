@@ -18,6 +18,10 @@
 
         function checkitems(string)
         {
+            if(!string)
+            {
+                return "Please enter data first";
+            }
             var string2=string.split(', ');
             var len=string2.length;
             var n=0;
